@@ -1,5 +1,10 @@
-def countZeros(tekst):
-  return tekst.count("0")
-
-teksts = "00000"
-print(countZeros(teksts))
+tekst=input("Ievadiet tekstu:")
+def replaceTwos(tekst):
+  if tekst.count("2")>0:
+    tekst=tekst.replace("2","divi")
+    print (tekst)
+  else:
+    tekst = "Nekas netika aizvetots"
+    print(tekst)
+  return tekst
+replaceDivi(tekst)
